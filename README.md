@@ -20,12 +20,15 @@ Usage examples. See help(function) after import for more use details:
 sequence2 = "Hello there, this is a test for a fast & easy mismatch matching python module. Allegedly, it is efficient"`
 
 count by how many mismatches 2 same lenght sequences diverge:
+
 `mismatch_counter(sequence1,sequence2)`
 
 find one sequence in another, with mismatches. return_template=True returns 
+
 `found = find(sequence1,sequence2,mismatch=1)`
 
 without return in a class
+
 `found = find(sequence1,sequence2,mismatch=2,dict_return=False)`
 
 compare two sequences, searching from the search sequence from a specified starting point (default=0), 
@@ -35,7 +38,9 @@ Mismatches are the total mismatches in the compared matrix
 `found = comparefromfound(sequence1,sequence2,mismatch=0,start=0,dict_return=True)`
 
 compare two sequences, returning all the locations in which they differ
+
 `found = compareandlocate(start=0,search=sequence1,template=sequence2)`
 
 compare two sequences, returning the full aligned matrix. starting point can be specified
+
 `found = compare(search=sequence1,template=sequence2,start=0,dict_return=False)`
