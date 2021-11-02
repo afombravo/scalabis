@@ -16,9 +16,9 @@ Import it as any other python module:
 
 Usage examples. See help(function) after import for more use details:
 
-`sequence1 = "pihton"
+`sequence1 = "pihton"`
 
-sequence2 = "Hello there, this is a test for a fast & easy mismatch matching python module. Allegedly, it is efficient"`
+`sequence2 = "Hello there, this is a test for a fast & easy mismatch matching python module. Allegedly, it is efficient"`
 
 count by how many mismatches 2 same lenght sequences diverge:
 
